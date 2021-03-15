@@ -1,0 +1,15 @@
+td > div > p {
+    width: 350px;
+    text-align: justify;
+    height: 200px;
+    margin-left: 25px
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+#container, table {
+    margin: auto;
+}
