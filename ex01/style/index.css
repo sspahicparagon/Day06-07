@@ -44,3 +44,10 @@ img {
 #container, table {
     margin: auto;
 }
+
+h1 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    color: whitesmoke;
+}
