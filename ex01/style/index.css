@@ -1,14 +1,45 @@
 td > div > p {
-    width: 350px;
     text-align: justify;
-    height: 200px;
-    margin-left: 25px
+    color: white;
+}
+
+.title, td > div > p {
+    width: 240px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.title {
+    text-align: left;
+    font-size: larger;
+    max-height: 20px;
+    margin-top: 5px;
+    color: #C0FFFF;
+    border-bottom: 2px solid white;
+}
+
+td > div {
+    margin-left: 25px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    background: #878787;
+}
+
+body {
+    background: #545454;
 }
 
 img {
     margin: auto;
     display: block;
+    width: 250px;
+    height: 250px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
+
+
 
 #container, table {
     margin: auto;
